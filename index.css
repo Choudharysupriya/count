@@ -1,0 +1,74 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;  
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@300;400&display=swap');
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url('image/background.jpg') center center;
+    background-size: cover;
+    text-align: center;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+table {
+    margin: auto;
+}
+th {
+    color: #FFFFFF;
+}
+input {
+    border-radius: 5px;
+    height: 50px;
+    width: 60%;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size:25px;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+button {
+    min-width: 120px;
+    margin: 20px 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.heading {
+    color: #F5F5F5;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.time {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 80px;
+    width: 100px;
+    margin: 0 10px;
+}
